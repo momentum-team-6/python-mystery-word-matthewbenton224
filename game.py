@@ -68,7 +68,7 @@ while c_word_list != display_word and max_guesses > 0:
    if u_guess == "":
         print("Guess A Letter")
    elif u_guess in memory:
-        print(f"YO! Pay Attention, {u_guess} has already been tried")
+        print(f"\U0001F440 YO! Pay Attention, {u_guess} has already been tried \U0001F440")
    elif u_guess in c_word_list:
         memory.append(u_guess)
         for i in range(len(display_word)):
